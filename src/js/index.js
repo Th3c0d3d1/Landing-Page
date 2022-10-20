@@ -10,4 +10,4 @@ import "../styles/index.css";
 import Jumbotron from "./component/Jumbotron.jsx"
 
 //render your react application
-ReactDOM.render(<Jumbotron name="jhgjh" />, document.querySelector("#app"));
+ReactDOM.render(<Jumbotron name="JumbotronRon" />, document.querySelector("#app"));
