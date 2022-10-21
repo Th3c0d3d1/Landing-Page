@@ -1,4 +1,4 @@
-// import React from "react";
+import React from "react";
 
 
 //include images into your bundle
@@ -12,11 +12,15 @@ import FooterBottom from "./FooterBottom.jsx";
 //create your first component
 const Home = () => {
 	return (
-		<div class="container">
+		<div className="container">
+			<NavBar/>
+			<Jumbotron/>
 			<Card/>
+			<FooterBottom/>
+
 		</div>
 
 	);
 };
 
-// export default Home;
+export default Home;
