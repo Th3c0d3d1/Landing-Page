@@ -6,9 +6,9 @@ import ReactDOM from "react-dom";
 import "../styles/index.css";
 
 //import your own components
-// import Home from "./component/home.jsx";
-
+import Card from "./component/card.jsx";
+import Home from "./component/home.jsx";
 import Jumbotron from "./component/Jumbotron.jsx"
 
 //render your react application
-ReactDOM.render(<Jumbotron name="JumbotronRon" />, document.querySelector("#app"));
+ReactDOM.render(<Home/>, document.querySelector("#app"));
