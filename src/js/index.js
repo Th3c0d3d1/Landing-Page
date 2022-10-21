@@ -12,7 +12,7 @@ import "../styles/index.css";
 // ReactDOM.render(<Home />, document.querySelector("#app"));
 
 //import your own components
-import Navbar from "./component/NavBar.jsx";
+import NavBar from "./component/NavBar.jsx";
 
 //render your react application
 ReactDOM.render(<NavBar />, document.querySelector("#app"));
