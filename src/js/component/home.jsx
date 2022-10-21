@@ -1,4 +1,5 @@
-import React from "react";
+// import React from "react";
+
 
 //include images into your bundle
 // import rigoImage from "../../img/rigo-baby.jpg";
@@ -16,4 +17,4 @@ const Home = () => {
 	);
 };
 
-export default Home;
+// export default Home;
